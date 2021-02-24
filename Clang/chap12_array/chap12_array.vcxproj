@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3ad62fcc-60e0-4540-a879-f8e43ed05c94}</ProjectGuid>
-    <RootNamespace>chap11var</RootNamespace>
+    <ProjectGuid>{f9cbdaf5-c112-4b45-a201-d9a14128cc9d}</ProjectGuid>
+    <RootNamespace>chap12array</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,9 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="var.c" />
-    <ClCompile Include="var2.c" />
-    <ClCompile Include="var3.c" />
+    <ClCompile Include="array.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

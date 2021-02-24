@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="var.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="var2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="var3.c">
+    <ClCompile Include="array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,14 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="var.c">
+    <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="var2.c">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Turboc.h">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="var3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

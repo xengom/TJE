@@ -11,4 +11,4 @@ void main() {
 	for (i = 0; i < 5; i++) {
 		test();
 	}
-}9
+}
