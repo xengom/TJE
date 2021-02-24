@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="array.c">
+    <ClCompile Include="snail_array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="diamond_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
