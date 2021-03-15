@@ -22,7 +22,7 @@ int main(){
 		for(i=0;i<4;i++){
 			output[i]=change/currency[i];
 			change=change-(output[i]*currency[i]);
-			printf("%d원:%d개",currency[i],output[i]);	
+			printf("%d원:%d개\t",currency[i],output[i]);	
 		}
 		
 	}

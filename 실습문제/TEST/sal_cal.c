@@ -6,12 +6,9 @@ int main(){
 	int sal,i; 
 	printf("급여를 입력 : ");
 	scanf("%d",&sal);
-	
 	for (i=0; i<10; i++){
 		ea[i] = sal / currency[i];
 		sal = sal % currency[i];
-		printf("%d원 짜리 %d 개\n",currency[i],ea[i]);
+		printf("%d\t원 짜리\t %d 개\n",currency[i],ea[i]);
 	}
-	
-	
 }
