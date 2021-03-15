@@ -1,0 +1,10 @@
+package test;
+
+public class Sample {
+	public static void main(String[] args) {
+		//이름, 국어,영어,수학 입력받아 총점 평균 학점 구하기
+		
+		
+		
+	}
+}

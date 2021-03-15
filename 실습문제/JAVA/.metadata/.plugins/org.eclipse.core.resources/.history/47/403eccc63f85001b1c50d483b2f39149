@@ -1,0 +1,28 @@
+package test;
+
+public class Score {
+
+	public static void main(String[] args) {
+		String n;
+		int k,e,m,t;
+		double a;
+		char g;
+		
+		n = "홍길동";
+		k = 73;
+		e = 62;
+		m = 85;
+		t = k + e + m;
+		a = t/3;
+		if(a>=90) g = 'A';
+		else if (a>=80) g = 'B';
+		else if (a>=70) g = 'C';
+		else if (a>=60) g = 'D';
+		else g = 'F';
+		System.out.println("이름  국어 영어 수학 총점 평균 학점");
+		System.out.println("==========================");
+		System.out.println(n+k+e+m+t+a+g);
+		
+	}
+
+}

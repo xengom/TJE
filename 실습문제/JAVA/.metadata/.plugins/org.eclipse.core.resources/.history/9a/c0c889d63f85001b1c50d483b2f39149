@@ -1,0 +1,12 @@
+package test;
+
+public class Sample {
+	public static void main(String[] args) {
+		
+		int a=20;	
+		double b=3.1234;
+		char c='K';
+		
+		System.out.println(a+"\t"+b+"\t"+c+"\t");
+	}
+}
