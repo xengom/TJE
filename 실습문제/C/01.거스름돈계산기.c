@@ -2,14 +2,13 @@
 
 int main(){
 	int i,price,input[3], total, currency[4]={500,100,50,10},output[4]={0,};
-	puts("물건 값을 입력");
+	puts("물건 값을 입력하시오");
 	scanf("%d",&price);
-	puts("돈을 넣어주세요");
-	printf("1000원 장 수: ");	
+	printf("1000원지폐개수: ");	
 	scanf("%d",&input[0]);
-	printf("500원 개 수: ");
+	printf("500원 동전개수: ");
 	scanf("%d",&input[1]);	
-	printf("100원 개 수: ");
+	printf("100원 동전개수: ");
 	scanf("%d",&input[2]);
 	
 	total = input[0]*1000 + input[1]*500 + input[2]*100;
