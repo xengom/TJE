@@ -13,6 +13,7 @@ public class SampleMain {
 		     //3.getBean을 이용해 ctx에 담겨있는 정보들을 sc객체에 제공
 		    SampleScore ss = ctx.getBean("sampleScore",SampleScore.class);
 		    ss.print();
-	    
+		    SampleResult sr = ctx.getBean("sampleResult",SampleResult.class);
+		    sr.print(ss);
 	}
 }
